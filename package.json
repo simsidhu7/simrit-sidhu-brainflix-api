@@ -1,0 +1,11 @@
+{
+  "name": "simmy-sidhu-brainflix-api",
+  "version": "1.0.0",
+  "description": "Brainflix Sprint 3 (API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simmy Sidhu",
+  "license": "ISC"
+}
