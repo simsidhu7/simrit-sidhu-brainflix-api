@@ -294,27 +294,16 @@
     ]
   },
   {
-    "id": "0f3d25ba-a3f1-45de-a547-f4c309797424",
-    "channel": "New Author",
-    "image": "/images/image8.jpg",
+    "id": "b676ab5a-912f-4629-b7ca-8fa818aa2fb5",
+    "title": "Ferrari Fun",
+    "description": "Driving around town in a Ferrari",
+    "channel": "Simmy Sidhu",
+    "image": "/images/image9.jpg",
     "views": "0",
     "likes": "0",
     "duration": "3:30",
     "video": "/stream.mp4",
-    "timestamp": 1731022170997,
-    "comments": []
-  },
-  {
-    "id": "54f1d479-3aec-4358-bf18-8e01b7912132",
-    "title": "Music Video",
-    "description": "House Music",
-    "channel": "New Author",
-    "image": "/images/image8.jpg",
-    "views": "0",
-    "likes": "0",
-    "duration": "3:30",
-    "video": "/stream.mp4",
-    "timestamp": 1731023348353,
+    "timestamp": 1731035299056,
     "comments": []
   }
 ]

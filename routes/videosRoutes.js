@@ -3,14 +3,11 @@ import fs from "fs";
 import { v4 as uuidv4 } from "uuid";
 const router = express.Router();
 
-//get all videos
 router.get("/", (req, res) => {
   const videos = fs.readFileSync("./data/videos.json", "utf8");
   res.json(JSON.parse(videos));
 });
 
-//get a video by ID
-//req.params.id extracts the ID from the URL
 router.get("/:id", (req, res) => {
   const videoIds = fs.readFileSync("./data/videos.json", "utf8");
   const parsedVideos = JSON.parse(videoIds);
@@ -33,8 +30,8 @@ router.post("/", (req, res) => {
     id: uuidv4(),
     title,
     description,
-    channel: "New Author",
-    image: "/images/image8.jpg",
+    channel: "Simmy Sidhu",
+    image: "/images/image9.jpg",
     views: "0",
     likes: "0",
     duration: "3:30",
